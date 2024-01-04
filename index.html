@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <h1 class="salut">Dear Soulmate Divyanshi,</h1>
+        <h1 class="header_text">I thought I would come to you personally and talk to you, but I was afraid you might be very angry on me after what happened, so I&apos;ve decided to make an apology.<br>I can&apos;t express how much I regret my actions. You are the best thing that&apos;s ever happened to me, you have always shown me kindness and compassion, yet I took you for granted.
+          <br><br>I know I&apos;ve hurt you. I&apos;m sorry from the bottom of my heart. I shouldn&apos;t have behaved the way I did. I want you to know that I love you and will do anything for you to forgive me and allow me back into your life.....
+            I want to express my sincere apologies for the pain and frustration my actions have caused you. I recognize that I have made the same mistakes again, and I deeply regret not learning from the past. In those moments, I failed to understand you, to see beyond my own shortcomings, and for that, I am truly sorry.
+            <br><br>
+            I want you to know that I am fully aware of the hurt I've inflicted, and it pains me to think that I've let you down. I understand the importance of acknowledging my mistakes and taking responsibility for them. Please believe me when I say that my intentions were never to hurt you, and I am committed to learning and growing from this experience.
+            <br><br>
+            In the midst of my own confusion, I failed to see the depth of your emotions and the impact of my actions on our relationship. I realize now how vital it is for me to be more attuned to your needs, to listen with an open heart, and to be the partner you deserve.
+            <br><br>
+            Despite the challenges we've faced, I want you to know that my love for you remains unwavering. It is a constant force that guides me through the ups and downs of life. I believe in us and in our ability to weather any storm together.
+            <br><br>
+            I understand that relationships have their share of difficulties, but I am committed to facing them hand in hand with you. Together, we can overcome the obstacles that life throws our way. I promise to be more present, to communicate more openly, and to cherish the beautiful connection we share.
+            <br><br>
+            I love you more than words can express, and I am willing to put in the effort and work required to make things right between us. Please allow me the opportunity to show you that my love for you is not just a fleeting emotion but a steadfast commitment.
+            Your&apos;s Purvansh.
+            <br><br>Will you forgive me sweetheart and give me the chance to be your&apos;s again?
+          </h1>
+      </div>
+      <div class="gif_container">
+        <img width="300" height="200"
+          src="tenor.gif"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onmouseover="moveButton()"
+          onclick="moveButton()"
+        >
+          No
+        </button>    
+        <script>
+          function nextPage() {
+            window.location.href = "yes.html";
+          }
+
+          function moveButton() {
+            var x =
+              Math.random() *
+              (window.innerWidth -
+                document.getElementById("noButton").offsetWidth);
+            var y =
+              Math.random() *
+              (window.innerHeight -
+                document.getElementById("noButton").offsetHeight);
+            document.getElementById("noButton").style.left = `${x}px`;
+            document.getElementById("noButton").style.top = `${y}px`;
+          }
+        </script>
+      </div>
+      <br><br>
+    </div>
+  </body>
+</html>
